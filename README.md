@@ -9,8 +9,7 @@ This project consists of PowerShell scripts designed to automate various tasks w
 <details>
 <summary>Adding Servers into Domain</summary>
 
-[Link to Adding Servers into Domain script](https://github.com/DimitryZH/active-directory-powershell-automation/Adding_Servers_into_Domain.ps1)
-
+[Link to Adding Servers into Domain script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Adding_Servers_into_Domain.ps1)
 ### Prerequisites
 
 - Windows PowerShell 5.1 or higher.
@@ -33,7 +32,7 @@ This project consists of PowerShell scripts designed to automate various tasks w
 <details>
 <summary>Active Directory User Creation</summary>
 
-[Link to Active Directory User Creation script](https://github.com/DimitryZH/active-directory-powershell-automation/Active_Directory_User_Creation.ps1)
+[Link to Active Directory User Creation script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Active_Directory_User_Creation.ps1)
 
 ### Prerequisites
 
