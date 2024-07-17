@@ -4,12 +4,15 @@
 
 This project consists of PowerShell scripts designed to automate various tasks within Active Directory (AD) environments. These scripts are intended for system administrators and IT professionals who manage Active Directory environments.
 
+To navigate through this project and access the PowerShell scripts, please select any script by clicking on its name to view further details, including its purpose, usage instructions, and any prerequisites or dependencies.
+
 ## Scripts
 
 <details>
 <summary>Adding Servers into Domain</summary>
 
 [Link to Adding Servers into Domain script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Adding_Servers_into_Domain.ps1)
+
 ### Prerequisites
 
 - Windows PowerShell 5.1 or higher.
