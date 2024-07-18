@@ -59,7 +59,7 @@ To navigate through this project and access the PowerShell scripts, please selec
 <details>
 <summary>Enable Active Directory Recycle Bin</summary>
 
-[Link to Enable Active Directory Recycle Bin script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Enable_Active_Directory_Recyclebin.ps1)
+[Link to Enable Active Directory Recycle Bin script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Enable_Active_Directory_Recylcebin.ps1)
 
 ### Prerequisites
 
@@ -83,7 +83,7 @@ To navigate through this project and access the PowerShell scripts, please selec
 <details>
 <summary>Active Directory User Recovery</summary>
 
-[Link to Active Directory User Recovery script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Active_Directory_User_Recovery.ps1)
+[Link to Active Directory User Recovery script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Active_Direcory_User_Recovery.ps1)
 
 ### Prerequisites
 
