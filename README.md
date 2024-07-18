@@ -81,25 +81,29 @@ To navigate through this project and access the PowerShell scripts, please selec
 </details>
 
 <details>
-<summary>Active Directory User Recovery</summary>
+<summary>Inactive User Report in AD</summary>
 
+<<<<<<< HEAD
+[Link to Inactive User Report in AD script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Inactive_User_Report_in_AD.ps1)
+=======
 [Link to Active Directory User Recovery script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Active_Direcory_User_Recovery.ps1)
+>>>>>>> 1f21985bcb0791a6a20b7ddb324ca1138e351e03
 
 ### Prerequisites
 
 - Windows PowerShell 5.1 or higher.
 - Active Directory module for Windows PowerShell.
-- The AD Recycle Bin feature must be enabled.
 - Administrative privileges on the local system.
 
 ### Features
 
-- Recovers deleted Active Directory users.
-- Utilizes the AD recycle bin feature for user recovery.
+- Generates a report of inactive user accounts in Active Directory.
+- Allows administrators to identify accounts that have not been used within a specified period.
 
 ### Usage
 
-1. Run the script with administrative privileges.
-2. When prompted, enter the name of the deleted user you wish to recover. The script will search for and recover the user account.
+1. Update the script with the desired threshold for inactivity (e.g., 90 days).
+2. Run the script with administrative privileges.
+3. The script will output a report listing all user accounts that have been inactive for longer than the specified period.
 
 </details>
