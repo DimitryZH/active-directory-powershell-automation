@@ -56,3 +56,50 @@ To navigate through this project and access the PowerShell scripts, please selec
 2. Run the script with administrative privileges.
 
 </details>
+<details>
+<summary>Enable Active Directory Recycle Bin</summary>
+
+[Link to Enable Active Directory Recycle Bin script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Enable_Active_Directory_Recyclebin.ps1)
+
+### Prerequisites
+
+- Windows PowerShell 5.1 or higher.
+- Active Directory module for Windows PowerShell.
+- Administrative privileges on the local system.
+- The forest functional level must be Windows Server 2008 R2 or higher.
+
+### Features
+
+- Enables the Active Directory Recycle Bin feature.
+- Allows for the recovery of deleted Active Directory objects.
+
+### Usage
+
+1. Run the script with administrative privileges.
+2. No additional input is required; the script checks and enables the AD Recycle Bin feature if it is not already enabled.
+
+</details>
+
+<details>
+<summary>Active Directory User Recovery</summary>
+
+[Link to Active Directory User Recovery script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Active_Directory_User_Recovery.ps1)
+
+### Prerequisites
+
+- Windows PowerShell 5.1 or higher.
+- Active Directory module for Windows PowerShell.
+- The AD Recycle Bin feature must be enabled.
+- Administrative privileges on the local system.
+
+### Features
+
+- Recovers deleted Active Directory users.
+- Utilizes the AD recycle bin feature for user recovery.
+
+### Usage
+
+1. Run the script with administrative privileges.
+2. When prompted, enter the name of the deleted user you wish to recover. The script will search for and recover the user account.
+
+</details>
