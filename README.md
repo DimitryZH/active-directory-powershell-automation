@@ -79,6 +79,7 @@ To navigate through this project and access the PowerShell scripts, please selec
 2. No additional input is required; the script checks and enables the AD Recycle Bin feature if it is not already enabled.
 
 </details>
+<details>
 <summary>Active Directory User Recovery</summary>
 
 [Link to Active Directory User Recovery script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Active_Directory_User_Recovery.ps1)
