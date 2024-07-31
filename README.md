@@ -126,6 +126,30 @@ To navigate through this project and access the PowerShell scripts, please selec
 3. The script will output a report listing all user accounts that have been inactive for longer than the specified period.
 
 </details>
+
+<details>
+<summary>Delete Active Directory Object</summary>
+
+[Link to Delete Active Directory Object script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Delete_Active_Directory_Object.ps1)
+
+### Prerequisites
+
+- Windows PowerShell 5.1 or higher.
+- Active Directory module for Windows PowerShell.
+- Administrative privileges on the local system.
+
+### Features
+
+- Deletes specified objects from Active Directory.
+- Supports deletion of various AD objects such as users, computers, and groups.
+
+### Usage
+
+1. Run the script with administrative privileges.
+2. When prompted, enter the distinguished name (DN) of the object you wish to delete.
+3. The script will delete the specified object from Active Directory.
+
+</details>
 <details>
 <summary>Disabling Inactive Users in AD</summary>
 
