@@ -173,3 +173,31 @@ To navigate through this project and access the PowerShell scripts, please selec
 3. The script will identify and disable user accounts that have been inactive for longer than the specified period.
 
 </details>
+</details>
+
+<details>
+<summary>Create Group Policy</summary>
+
+[Link to Create Group Policy script](https://github.com/DimitryZH/active-directory-powershell-automation/blob/main/Create_groupe_policy.ps1)
+
+### Prerequisites
+
+- Windows PowerShell 5.1 or higher.
+- Group Policy module for Windows PowerShell.
+- Administrative privileges on the local system.
+
+### Features
+
+- Creates a new Group Policy Object (GPO) named "Secure_computer".
+- Prevents changing desktop background and icons.
+- Sets desktop wallpaper and disables the removal of the Recycle Bin icon from the desktop.
+- Links the GPO to a specific Organizational Unit (OU) in Active Directory.
+- Backs up all Group Policy Objects.
+
+### Usage
+
+1. Open PowerShell with administrative privileges.
+2. Run the `Create_groupe_policy.ps1` script.
+3. Ensure the script has the necessary permissions to modify Group Policy Objects and Active Directory.
+
+</details>
